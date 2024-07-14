@@ -1,0 +1,82 @@
+header {
+  background-color: rgb(0, 0, 0);
+  height: 55px;
+  width: 100%;
+}
+header ul {
+  padding-top: 15px;
+}
+header li {
+  list-style: none;
+  display: inline;
+  padding: 15px;
+}
+header li a {
+  background-color: #000000;
+  border: solid, black, 2px;
+  color: white;
+  list-style: none;
+  padding: 5px;
+  text-decoration: none;
+}
+header a:hover {
+  background-color: #a0a0a0;
+  color: white;
+}
+
+body {
+  color: white;
+  background-image: url("image.png");
+  background-position: 50% 50%;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+
+  text-transform: capitalize;
+  text-align: center;
+}
+button :hover {
+  background-color: aliceblue;
+}
+
+img.me {
+  margin-top: 160px;
+  height: 400px;
+  width: 400px;
+  border: solid rgb(0, 0, 0) 5px;
+  border-radius: 50%;
+}
+.icon {
+  height: 25px;
+  padding: 15px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+}
+footer a:hover {
+  color: blue;
+}
+footer button {
+  border-radius: 0%;
+}
+footer button:hover {
+  background-color: aliceblue;
+  border-radius: 0%;
+}
+.secondfooter {
+  background-color: white;
+}
+footer textarea{
+    height: 100px;
+        width: 300px;
+        font-size: medium;
+}
